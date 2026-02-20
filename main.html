@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alighieri</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="./index.html" class="header-logo-link"><svg style="width: 88px; height: 55px">
+                <use class="header-logo-image" xlink:href="./src/images/signature.svg#"></use>
+            </svg></a>
+
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-item">
+                    <a href="./index.html" class="header-nav-link">Home</a>
+                </li>
+                <li class="header-nav-item">
+                    <a href="./basics.html" class="header-nav-link">Basics</a>
+                </li>
+                <li class="header-nav-item">
+                    <a href="./microorganisms.html" class="header-nav-link">Microorganisms</a>
+                </li>
+                <li class="header-nav-item">
+                    <a href="./laboratory.html" class="header-nav-link">Laboratory</a>
+                </li>
+                <li class="header-nav-item">
+                    <a href="./applications.html" class="header-nav-link">Applications</a>
+                </li>
+            </ul>
+        </nav>
+
+        <input type="text" id="headerSearchInput" class="header-search-input" placeholder="Search..." />
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="hero-text-container">
+                <h1 class="hero-title">Microbiology: from Cell to System</h1>
+                <h2 class="hero-subtitle">all about microbiology</h2>
+            </div>
+        </section>
+
+        <section class="articles">
+            <div class="container">
+                <h2 class="articles-title">Latest Articles</h2>
+                <ul class="articles-cards"></ul>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="./src/script/article.js"></script>
+    <script type="module" src="./src/script/search.js"></script>
+</body>
+
+</html>

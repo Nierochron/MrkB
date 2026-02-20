@@ -1,0 +1,20 @@
+[
+  {
+    "title": "What is Microbiology?",
+    "img": "./src/images/articles-images/microbiology_article.jpg",
+    "desc": "Introduction to microbiology and its importance in science.",
+    "link": "./articles/microbiology.html"
+  },
+  {
+    "title": "Bacillus Anthracis",
+    "img": "./src/images/articles-images/bacillus_anthracis.jpg",
+    "desc": "Everything you need to know about bacillus anthracis.",
+    "link": "./articles/mycobacteria.html"
+  },
+  {
+    "title": "Understanding Mycobacteria",
+    "img": "./src/images/articles-images/mycobacteria-shutterstock-1011747280-md.jpg",
+    "desc": "Everything you need to understand about microbacteria.",
+    "link": "./articles/mycobacteria.html"
+  }
+]
